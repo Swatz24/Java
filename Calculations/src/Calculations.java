@@ -9,7 +9,7 @@ public class Calculations {
         System.out.println(a + " + "+ b + " = " + (a+b));
         System.out.println(a + " - "+ b + " = " + (a-b));
         System.out.println(a + " * "+ b + " = " + (a*b));
-        System.out.println(a + " / "+ b + " = " + ((float)a/(float)b));
+        System.out.println(a + " / "+ b + " = " + ((double)a/(double)b));
         System.out.println(a + " % "+ b + " = " + (a%b));
         }
     }
