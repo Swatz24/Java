@@ -9,7 +9,7 @@ public class SumOfList {
         while(true){
             int item = input.nextInt();
             if(item == 0){
-                System.out.println("Done entering integers to the list. Calling Sum function to calculate the sum of the items in the lsit");
+                System.out.println("Done entering integers to the list. Calling Sum function to calculate the sum of the items in the list");
                 sum(list);
                 break;
             }
@@ -22,8 +22,8 @@ public class SumOfList {
     public static void sum(ArrayList<Integer> arr){
         System.out.println(arr.toString().replace("[","").replace("]","") + " were the items in the List.");
         int sum1 =0;
-        for(int i=0; i< arr.size();i++){
-            sum1+= arr.get(i);
+        for (Integer integer : arr) {
+            sum1 += integer;
         }
         System.out.println("The sum of the list is: " + sum1);
     }

@@ -15,7 +15,7 @@ public class fifthItem {
                 System.out.println(array);
                 break;
             }
-            if (item.equals("") && array.size() <= 4) {
+            if (array.size() <= 4 &&  item.equals("") ){
                 System.out.println("List array has only " + array.size() + " items. No fifth item to display.");
                 System.out.println(array);
                 break;
