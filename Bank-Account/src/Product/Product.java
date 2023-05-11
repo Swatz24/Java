@@ -18,7 +18,7 @@ public class Product {
         System.out.println("The total cost is " + total);
     }
 
-    public String toString(){
+    @Override public String toString(){
         return "1 lb of " + this.productName + " costs " +  this.cost + " and " + this.quantity + " lbs were purchased. ";
     }
 
