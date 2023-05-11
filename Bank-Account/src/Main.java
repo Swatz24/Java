@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         BankAccount John = new BankAccount("John", 500);
         John.deposit(100);
+
       //  account1.withdrawal(200);
         System.out.println(John);
 

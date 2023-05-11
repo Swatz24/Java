@@ -7,17 +7,23 @@ public class BankAccount {
         this.accountBalance = accountBalance;
     }
 
+    public String getUserAccName() {
+        return userAccName;
+    }
 
+    public double getAccountBalance() {
+        return accountBalance;
+    }
 
     public void deposit(double depositAmt){
-        this.accountBalance = this.accountBalance + depositAmt;
+        accountBalance = accountBalance + depositAmt;
     }
 
     public  void withdrawal(double withdrawAmt){
-        this.accountBalance -= withdrawAmt;
+        accountBalance -= withdrawAmt;
     }
 
     @Override public String toString(){
-        return  this.userAccName + "'s account Balance : " + this.accountBalance;
+        return  getUserAccName() + "'s account Balance : " + getAccountBalance();
     }
 }

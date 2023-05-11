@@ -12,6 +12,18 @@ public class Product {
         this.cost = cost;
     }
 
+    public String getProductName() {
+        return productName;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
     public void totalCost(){
         double total;
         total = this.quantity * this.cost;
@@ -19,7 +31,7 @@ public class Product {
     }
 
     @Override public String toString(){
-        return "1 lb of " + this.productName + " costs " +  this.cost + " and " + this.quantity + " lbs were purchased. ";
+        return "1 lb of " + getProductName() + " costs " +  getCost() + " and " + getQuantity() + " lbs were purchased. ";
     }
 
 }
