@@ -15,7 +15,14 @@ public class AverageSensor implements Sensor {
     }
     @Override
     public boolean isOn() {
-        return isOn;
+
+        for (Sensor sensor : sensors) {
+            if (!sensor.isOn()) {
+                return false;
+            }
+        }
+        return true;
+
     }
 
     @Override
@@ -56,8 +63,7 @@ public class AverageSensor implements Sensor {
         }
 //      System.out.println("Sum" + sum);
 //       System.out.println("Size" +sensors.size());
-        int avgerage = sum/ sensors.size();
-        return avgerage;
+        return sum/ sensors.size();
     }
 
     public void addSensor(Sensor toAdd){
