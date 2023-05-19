@@ -27,23 +27,31 @@ public class AverageSensor implements Sensor {
 
     @Override
     public void setOn() {
+        try{
         if(sensors.isEmpty()){
             throw new IllegalStateException("Sensor is empty");
         }
         for(Sensor sensor : sensors){
             sensor.setOn();
             isOn = true;
+        }}
+        catch (IllegalStateException e){
+            System.out.println(e.getMessage());
         }
     }
 
     @Override
     public void setOff() {
+        try{
         if(sensors.isEmpty()){
             throw new IllegalStateException("Sensor is empty");
         }
         for(Sensor sensor : sensors){
             sensor.setOff();
             isOn = false;
+        }}
+        catch (IllegalStateException e){
+            System.out.println(e.getMessage());
         }
     }
 
@@ -55,7 +63,7 @@ public class AverageSensor implements Sensor {
         int sum =0;
 
         for (Sensor sensor : sensors){
-           // System.out.println("here");
+            // System.out.println("here");
 
             sum += sensor.read();
 
@@ -71,10 +79,13 @@ public class AverageSensor implements Sensor {
     }
 
     public List<Integer> readings() {
+        if(sensors.isEmpty()){
+            System.out.println("No sensors added. No readings to display");
+        }
         int i =0;
         for (Sensor sensor : sensors) {
             readings.add(sensor.read());
-            System.out.println("Temperature in " + getRegion() + " is " + readings.get(i));
+            System.out.println("Temperature in " + getRegion() + i + " is " + readings.get(i));
             i++;
         }
         return readings;
