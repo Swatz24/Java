@@ -16,6 +16,7 @@ public class Consumer implements Runnable {
     @Override
     public void run() {
         // run() method starts executing when the Thread is started using start().
+        // // i<=7 , so it consumes 8 numbers
         for(int i =0; i <=7 ; i++){
             int num = sharedBuffer.consume();
             sum += num;

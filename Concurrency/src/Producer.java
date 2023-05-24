@@ -8,6 +8,7 @@ public class Producer implements Runnable{
     // run() method starts executing when the Thread is started using start().
     @Override
     public void run() {
+        // i<=7 , so it produces 8 random numbers
         for(int i =0; i <=7 ; i++){
             int number = (int) (Math.random() *100);
             sharedBuffer.produce(number);
