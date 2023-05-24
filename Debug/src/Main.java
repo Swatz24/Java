@@ -14,6 +14,8 @@ public class Main {
         try{
             // Null pointer exception here because the array value is not passed or assigned through constructor, but we are trying to print the array using print() function.
             // which will throw a NullPointerException. using try, catch block to catch the exception when it occurs.
+            // By adding breakpoints and stepping into the function, we can see that the the print() methods tries to print the array which is not assigned any value yet.
+            // So to catch the exception, we throw the exception in the method and catch it here.
             avg.print();
         }catch (NullPointerException e){
             System.out.println(e.getMessage());
@@ -28,7 +30,8 @@ public class Main {
         }
 
         // Logic error
-
+        // By adding debug and stepping into the method we can see the how the array starts looping from the index 1 instead of 0.
+        // Once we see what is going wrong in the function, we can rectify the error .
         System.out.println("Average of numbers in the array: (Logic error: number[0] is excluded while calculating sum )");
         System.out.println(avg.erroredAverage(numbers));
     }
@@ -43,6 +46,10 @@ public class Main {
         //  calculates the average of an array of integers.
         //  This method should take an array of integers as input and return a double as output.
         public double calculateAverage(int[] arr){
+            // To avoid null pointer exception
+            if(arr.length == 0){
+                return 0.0;
+            }
             int sum = 0;
             for(int i = 0; i < arr.length; i++){
                 if(i >= arr.length ){
