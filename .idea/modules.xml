@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmPractice/AlgorithmPractice.iml" filepath="$PROJECT_DIR$/AlgorithmPractice/AlgorithmPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverloadConstructors/Animal/Animal.iml" filepath="$PROJECT_DIR$/OverloadConstructors/Animal/Animal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList-Arrays/ArrayList-Arrays.iml" filepath="$PROJECT_DIR$/ArrayList-Arrays/ArrayList-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bank-Account/Bank-Account.iml" filepath="$PROJECT_DIR$/Bank-Account/Bank-Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/BankAccount/BankAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverloadConstructors/Book/Book.iml" filepath="$PROJECT_DIR$/OverloadConstructors/Book/Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectsInList/Books/Books.iml" filepath="$PROJECT_DIR$/ObjectsInList/Books/Books.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculations/Calculations.iml" filepath="$PROJECT_DIR$/Calculations/Calculations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Casting/Casting.iml" filepath="$PROJECT_DIR$/Casting/Casting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChatBot/ChatBot.iml" filepath="$PROJECT_DIR$/ChatBot/ChatBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionsandErrorHandling/CollectionsandErrorHandling.iml" filepath="$PROJECT_DIR$/CollectionsandErrorHandling/CollectionsandErrorHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concurrency/Concurrency.iml" filepath="$PROJECT_DIR$/Concurrency/Concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional-Statements/Conditional-Statements.iml" filepath="$PROJECT_DIR$/Conditional-Statements/Conditional-Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverloadConstructors/Counter/Counter.iml" filepath="$PROJECT_DIR$/OverloadConstructors/Counter/Counter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Debug/Debug.iml" filepath="$PROJECT_DIR$/Debug/Debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaIO/JavaIO.iml" filepath="$PROJECT_DIR$/JavaIO/JavaIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLambda/JavaLambda.iml" filepath="$PROJECT_DIR$/JavaLambda/JavaLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStream-LibraryManagementSystem/JavaStream-LibraryManagementSystem.iml" filepath="$PROJECT_DIR$/JavaStream-LibraryManagementSystem/JavaStream-LibraryManagementSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library-Management-System/Library-Management-System.iml" filepath="$PROJECT_DIR$/Library-Management-System/Library-Management-System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectsInList/ObjectsInList.iml" filepath="$PROJECT_DIR$/ObjectsInList/ObjectsInList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverloadConstructors/OverloadConstructors.iml" filepath="$PROJECT_DIR$/OverloadConstructors/OverloadConstructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional-Statements/Practicing Loops/Practicing Loops.iml" filepath="$PROJECT_DIR$/Conditional-Statements/Practicing Loops/Practicing Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Printing Practice/Printing Practice.iml" filepath="$PROJECT_DIR$/Printing Practice/Printing Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectIO/ProjectIO.iml" filepath="$PROJECT_DIR$/ProjectIO/ProjectIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Regex/Regex.iml" filepath="$PROJECT_DIR$/Regex/Regex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/Scanner/Scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/School-Management-System/School-Management-System.iml" filepath="$PROJECT_DIR$/School-Management-System/School-Management-System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectsInList/TV-shows/TV-shows.iml" filepath="$PROJECT_DIR$/ObjectsInList/TV-shows/TV-shows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OverloadConstructors/TvShows/TvShows.iml" filepath="$PROJECT_DIR$/OverloadConstructors/TvShows/TvShows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TypeCasting/TypeCasting.iml" filepath="$PROJECT_DIR$/TypeCasting/TypeCasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../io/io.iml" filepath="$PROJECT_DIR$/../io/io.iml" />
+    </modules>
+  </component>
+</project>
